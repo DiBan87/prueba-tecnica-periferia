@@ -7,7 +7,6 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class CreateToken implements Task{
     private final String username;

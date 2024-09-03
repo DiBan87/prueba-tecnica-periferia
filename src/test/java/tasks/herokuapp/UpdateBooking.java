@@ -1,13 +1,11 @@
 package tasks.herokuapp;
 
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static org.hamcrest.CoreMatchers.equalTo;
 
 public class UpdateBooking implements Task {
 

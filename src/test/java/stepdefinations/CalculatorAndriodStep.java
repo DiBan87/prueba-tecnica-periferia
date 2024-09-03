@@ -2,21 +2,16 @@ package stepdefinations;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import net.serenitybdd.screenplay.Actor;
 import questions.calculator.Result;
 import tasks.calculator.Calculator;
 
 import java.io.IOException;
-import java.util.Objects;
 
 
-import static net.bytebuddy.matcher.ElementMatchers.is;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CalculatorAndriodStep {
 

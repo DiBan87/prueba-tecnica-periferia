@@ -1,17 +1,13 @@
 package tasks.demoqa;
 
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
-import net.serenitybdd.screenplay.ui.Image;
-import net.serenitybdd.screenplay.ui.Select;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.model.util.FileSystemUtils;
 import org.openqa.selenium.Keys;
 import ui.PracticeFormUi;
 import utils.ExcelReader;
-import utils.Time;
 
 import java.io.IOException;
 import java.util.Map;

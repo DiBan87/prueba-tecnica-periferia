@@ -7,8 +7,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class CreateBooking implements Task {
     private final String firstname;
@@ -38,7 +36,6 @@ public class CreateBooking implements Task {
                 .body(createRequestBody())
                 .post("/booking");
 
-        // Extraer el bookingId de la respuesta
         int bookingId = response.jsonPath().getInt("bookingid");
         actor.remember("bookingId", bookingId);
 
